@@ -1,0 +1,25 @@
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.zodiac-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.zodiac-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.zodiac-detail {
+  padding: 20px;
+}
+
+button {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
