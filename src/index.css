@@ -37,26 +37,3 @@ button {
 button{
   border: none;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #333;
-  }
-  .app {
-    color: #fff;
-    background-color: #333;
-  }
-
-  .zodiac-item {
-    border: 1px solid #555;
-    color: #fff;
-  }
-
-  .zodiac-detail {
-    color: #fff;
-  }
-
-  button {
-    color: #fff;
-    background-color: #444;
-  }
-}

@@ -16,7 +16,7 @@ const App: React.FC = () => {
   const handleSelect = (sign: string) => setSelectedSign(sign);
   const handleBack = () => setSelectedSign(null);
   const toggleLanguage = () => setLanguage(language === 'ru' ? 'en' : 'ru');
-
+console.log(window.Telegram)
   return (
     <div className="app">
       <header>
